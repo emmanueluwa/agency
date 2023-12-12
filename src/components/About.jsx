@@ -7,7 +7,7 @@ export const About = () => {
       <div className="bg-[url(/src/assets/funfact_bg.svg)] bg-no-repeat bg-center h-full w-full absolute top-0 left-0 opacity-75"></div>
 
       {/* left text  */}
-      <div className="md:w-2/5">
+      <div className="md:w-2/5" id="about">
         <h2 className="text-5xl font-bold mb-5">A little about us</h2>
         <p className="text-gray-300">
           We aim to help in areas meaningful and impactful to us. Our current
