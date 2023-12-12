@@ -1,42 +1,75 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav {
+  font-family: "Poppins", sans-serif;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+header,
+nav {
+  z-index: 100001;
+}
+
+.active {
+  color: #e82929 !important;
+}
+
+.banner {
+  background-image: url("/src/assets/hero_bg.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100%;
+  background-attachment: fixed;
+}
+
+.cs-style1 {
+  height: calc(100vh + 180px);
+  min-height: 100vh;
+  padding: 250px 0 170px;
+  position: relative;
+}
+
+.cs-shape_1 {
+  border-bottom: 9px solid transparent;
+  border-left: 14px solid #e82929;
+  border-top: 9px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  animation: semi-rotate-anim 8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes semi-rotate-anim {
+  50% {
+    transform: translateY(25px) rotate(-53deg);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.cs-shape_1:first-child {
+  left: 10%;
+  top: 25%;
 }
 
-.card {
-  padding: 2em;
+.cs-shape_1:nth-child(2) {
+  left: 72%;
+  top: 30%;
+  transform: rotate(-15deg);
 }
 
-.read-the-docs {
-  color: #888;
+.cs-shape_1:nth-child(3) {
+  left: 34%;
+  top: 68%;
+  transform: rotate(-30deg);
 }
