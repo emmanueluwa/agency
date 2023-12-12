@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
+import { About } from "./components/About";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className="bg-dark">
         <Navbar />
         <Hero />
+        <About />
       </div>
     </>
   );
