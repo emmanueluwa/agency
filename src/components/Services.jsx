@@ -4,7 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 //images
 import service1 from "../assets/service_1.jpeg";
 import service2 from "../assets/service_2.jpeg";
-import service3 from "../assets/service_3.jpeg";
+import service3 from "../assets/service_3.jpg";
 import service4 from "../assets/service_4.jpeg";
 
 export const Services = () => {

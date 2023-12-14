@@ -32,7 +32,7 @@ export const Navbar = () => {
     { link: "About", path: "about" },
     { link: "Services", path: "services" },
     { link: "Portfolio", path: "portfolio" },
-    { link: "Blog", path: "blogs" },
+    // { link: "Blog", path: "blogs" },
     { link: "Contact", path: "contact" },
   ];
 

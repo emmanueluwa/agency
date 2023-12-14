@@ -1,10 +1,14 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
+import { PopupButton } from "react-calendly";
 
 export const Contact = () => {
   return (
     <div className="lg:px-24 px-4">
-      <div className="relative bg-[url(/src/assets/cta_bg.jpeg)] bg-no-repeat bg-cover h-96 rounded-xl">
+      <div
+        className="relative bg-[url(/src/assets/cta_bg.jpeg)] bg-no-repeat bg-cover h-96 rounded-xl"
+        id="contact"
+      >
         {/* shapes  */}
         <div className="cs-shape_1"></div>
         <div className="cs-shape_1"></div>
@@ -17,13 +21,18 @@ export const Contact = () => {
               Ready to make your business more
               <span className="italic"> efficient</span> ?
             </h2>
-            <a
-              href=""
-              className="text-white inline-flex items-center gap-2 font-semibold hover:text-orange transition-all duration-300 ease-in"
-            >
-              <span>Book a call</span>
+            <div className="text-white inline-flex items-center  gap-2 font-semibold hover:text-orange transition-all duration-300 ease-in">
+              <PopupButton
+                url="https://calendly.com/fulodev/informal-chat"
+                /*
+                 * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+                 * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+                 */
+                rootElement={document.getElementById("root")}
+                text="Book a call"
+              />
               <BsArrowRight />
-            </a>
+            </div>
           </div>
         </div>
       </div>
