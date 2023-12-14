@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-scroll";
+// Import css files
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 const PortfolioSlider = () => {
@@ -7,19 +10,55 @@ const PortfolioSlider = () => {
     {
       title: "Pet friendly property renting platform",
       subtitle: "See Details",
-      url: "https://www.peteine.com/",
+      // url: "https://www.peteine.com/",
       image: "public/images/peteine.png",
     },
     {
       title: "Connect with pet owners worldwide",
       subtitle: "See Details",
-      url: "/",
+      // url: "/",
       image: "public/images/petm8.png",
     },
     {
       title: "Generate dog images with AI",
       subtitle: "See Details",
-      url: "https://www.creator.fulodev.com/",
+      // url: "https://www.creator.fulodev.com/",
+      image: "public/images/icons.png",
+    },
+    {
+      title: "Pet friendly property renting platform",
+      subtitle: "See Details",
+      // url: "https://www.peteine.com/",
+      image: "public/images/peteine.png",
+    },
+    {
+      title: "Connect with pet owners worldwide",
+      subtitle: "See Details",
+      // url: "/",
+      image: "public/images/petm8.png",
+    },
+    {
+      title: "Generate dog images with AI",
+      subtitle: "See Details",
+      // url: "https://www.creator.fulodev.com/",
+      image: "public/images/icons.png",
+    },
+    {
+      title: "Pet friendly property renting platform",
+      subtitle: "See Details",
+      // url: "https://www.peteine.com/",
+      image: "public/images/peteine.png",
+    },
+    {
+      title: "Connect with pet owners worldwide",
+      subtitle: "See Details",
+      // url: "/",
+      image: "public/images/petm8.png",
+    },
+    {
+      title: "Generate dog images with AI",
+      subtitle: "See Details",
+      // url: "https://www.creator.fulodev.com/",
       image: "public/images/icons.png",
     },
   ];
@@ -59,11 +98,7 @@ const PortfolioSlider = () => {
   return (
     <Slider {...settings} className="lg:-mx-64 gap-5">
       {projects.map((item, index) => (
-        <Link
-          key={index}
-          to={index.url || "/"}
-          className={`cs-portfolio cs-bg relative`}
-        >
+        <Link key={index} to="/" className={`cs-portfolio cs-bg relative`}>
           <div className="absolute top-0 left-0 bg-black/50 w-full h-full rounded-2xl"></div>
           <div>
             <img src={item.image} alt="" />

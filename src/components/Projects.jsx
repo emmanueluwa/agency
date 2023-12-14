@@ -20,6 +20,8 @@ export const Projects = () => {
       <div className="lg:px-24 px-4 overflow-hidden">
         <PortfolioSlider />
       </div>
+
+      <div className="md:h-24 h-12"></div>
     </div>
   );
 };
