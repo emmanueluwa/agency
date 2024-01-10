@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 // Import css files
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -9,56 +9,56 @@ const PortfolioSlider = () => {
   const projects = [
     {
       title: "Pet friendly property renting platform",
-      subtitle: "See Details",
-      // url: "https://www.peteine.com/",
+      subtitle: "See More",
+      url: "https://www.peteine.com/",
       image: "public/images/peteine.png",
     },
     {
       title: "Connect with pet owners worldwide",
-      subtitle: "See Details",
-      // url: "/",
+      subtitle: "See More",
+      url: "/",
       image: "public/images/petm8.png",
     },
     {
       title: "Generate dog images with AI",
-      subtitle: "See Details",
-      // url: "https://www.creator.fulodev.com/",
+      subtitle: "See More",
+      url: "https://www.creator.fulodev.com/",
       image: "public/images/icons.png",
     },
     {
       title: "Pet friendly property renting platform",
-      subtitle: "See Details",
-      // url: "https://www.peteine.com/",
+      subtitle: "See More",
+      url: "https://www.peteine.com/",
       image: "public/images/peteine.png",
     },
     {
       title: "Connect with pet owners worldwide",
-      subtitle: "See Details",
-      // url: "/",
+      subtitle: "See More",
+      url: "/",
       image: "public/images/petm8.png",
     },
     {
       title: "Generate dog images with AI",
-      subtitle: "See Details",
-      // url: "https://www.creator.fulodev.com/",
+      subtitle: "See More",
+      url: "https://www.creator.fulodev.com/",
       image: "public/images/icons.png",
     },
     {
       title: "Pet friendly property renting platform",
-      subtitle: "See Details",
-      // url: "https://www.peteine.com/",
+      subtitle: "See More",
+      url: "https://www.peteine.com/",
       image: "public/images/peteine.png",
     },
     {
       title: "Connect with pet owners worldwide",
-      subtitle: "See Details",
-      // url: "/",
+      subtitle: "See More",
+      url: "/",
       image: "public/images/petm8.png",
     },
     {
       title: "Generate dog images with AI",
-      subtitle: "See Details",
-      // url: "https://www.creator.fulodev.com/",
+      subtitle: "See More",
+      url: "https://www.creator.fulodev.com/",
       image: "public/images/icons.png",
     },
   ];
@@ -98,7 +98,14 @@ const PortfolioSlider = () => {
   return (
     <Slider {...settings} className="lg:-mx-64 gap-5">
       {projects.map((item, index) => (
-        <Link key={index} to="/" className={`cs-portfolio cs-bg relative`}>
+        <a
+          key={index}
+          href={item.url}
+          target="_blank"
+          rel="noopener"
+          aria-label={item.title}
+          className={`cs-portfolio cs-bg relative`}
+        >
           <div className="absolute top-0 left-0 bg-black/50 w-full h-full rounded-2xl"></div>
           <div>
             <img src={item.image} alt="" />
@@ -109,7 +116,7 @@ const PortfolioSlider = () => {
               <p className="cs-portfolio_subtitle">{item.subtitle}</p>
             </div>
           </div>
-        </Link>
+        </a>
       ))}
     </Slider>
   );

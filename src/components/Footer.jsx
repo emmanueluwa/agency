@@ -23,7 +23,7 @@ const Footer = () => {
           {/* socials */}
           <div className="flex gap-5 text-white">
             <a
-              href="/"
+              href="https://www.linkedin.com/company/fulodev/"
               className="block border-2 p-3 rounded-full hover:border-orange hover:scale-110 transition-all duration-300"
             >
               <FaLinkedinIn className="w-5 h-5" />
