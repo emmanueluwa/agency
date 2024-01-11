@@ -4,61 +4,66 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
+//image
+import img1 from "../assets/peteine.png";
+import img2 from "../assets/petm8.png";
+import img3 from "../assets/icons.png";
+
 const PortfolioSlider = () => {
   const projects = [
     {
       title: "Pet friendly property renting platform",
       subtitle: "See More",
       url: "https://www.peteine.com/",
-      image: "public/images/peteine.png",
+      image: img1,
     },
     {
       title: "Connect with pet owners worldwide",
       subtitle: "See More",
       url: "/public/images/petm8.png",
-      image: "public/images/petm8.png",
+      image: img2,
     },
     {
       title: "Generate dog images with AI",
       subtitle: "See More",
       url: "https://www.creator.fulodev.com/",
-      image: "public/images/icons.png",
+      image: img3,
     },
     {
       title: "Pet friendly property renting platform",
       subtitle: "See More",
       url: "https://www.peteine.com/",
-      image: "public/images/peteine.png",
+      image: img1,
     },
     {
       title: "Connect with pet owners worldwide",
       subtitle: "See More",
       url: "/public/images/petm8.png",
-      image: "public/images/petm8.png",
+      image: img2,
     },
     {
       title: "Generate dog images with AI",
       subtitle: "See More",
       url: "https://www.creator.fulodev.com/",
-      image: "public/images/icons.png",
+      image: img3,
     },
     {
       title: "Pet friendly property renting platform",
       subtitle: "See More",
       url: "https://www.peteine.com/",
-      image: "public/images/peteine.png",
+      image: img1,
     },
     {
       title: "Connect with pet owners worldwide",
       subtitle: "See More",
       url: "/public/images/petm8.png",
-      image: "public/images/petm8.png",
+      image: img2,
     },
     {
       title: "Generate dog images with AI",
       subtitle: "See More",
       url: "https://www.creator.fulodev.com/",
-      image: "public/images/icons.png",
+      image: img3,
     },
   ];
 
