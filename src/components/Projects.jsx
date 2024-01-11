@@ -23,7 +23,7 @@ export const Projects = () => {
               className="text-white inline-flex items-center gap-2 font-semibold hover:text-orange transition-all duration-300 ease-in"
             >
               <BsArrowLeft />
-              <span>Swipe</span>
+              <span>Click and Swipe</span>
               <BsArrowRight />
             </a>
           </div>
