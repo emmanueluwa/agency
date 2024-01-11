@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { PopupButton } from "react-calendly";
 
 export const Contact = () => {
+  //state tracking if calendly popup is open
+  const [isCalendlyOpen, setIsCalendlyOpen] = useState(false);
+
   return (
     <div className="lg:px-24 px-4">
       <div
@@ -30,6 +33,7 @@ export const Contact = () => {
                  */
                 rootElement={document.getElementById("root")}
                 text="Book a call"
+                onClose={() => setIsCalendlyOpen(false)}
               />
               <BsArrowRight />
             </div>

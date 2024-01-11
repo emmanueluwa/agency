@@ -19,13 +19,17 @@ export const Hero = () => {
         {/* banner button and text */}
         <div className="text-white text-lg flex md:flex-row flex-col-reverse md:items-center items-start justify-between gap-8">
           <div>
-            <a
-              href=""
-              className="inline-flex items-center gap-2 font-semibold hover:text-orange transition-all duration-300 ease-in"
+            <Link
+              to="contact"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              className="cursor-pointer inline-flex items-center gap-2 font-semibold hover:text-orange transition-all duration-300 ease-in"
             >
               <span>Get a Quote</span>
               <BsArrowRight />
-            </a>
+            </Link>
           </div>
           <div className="md:w-1/2">
             <p className="">

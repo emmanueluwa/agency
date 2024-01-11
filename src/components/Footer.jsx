@@ -62,13 +62,13 @@ const Footer = () => {
           <h3 className="text-xl font-semibold">Services</h3>
           <div className="space-y-3 text-gray-300">
             <a href="/" className="block">
-              Business Website
+              Website Applications
             </a>
             <a href="/" className="block">
-              SEO
+              Marketing Automation
             </a>
             <a href="/" className="block">
-              Booking system
+              Saas
             </a>
             <a href="/" className="block">
               Business Automation
