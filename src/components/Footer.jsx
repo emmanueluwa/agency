@@ -24,24 +24,32 @@ const Footer = () => {
           <div className="flex gap-5 text-white">
             <a
               href="https://www.linkedin.com/company/fulodev/"
+              target="_blank"
+              rel="noopener"
               className="block border-2 p-3 rounded-full hover:border-orange hover:scale-110 transition-all duration-300"
             >
               <FaLinkedinIn className="w-5 h-5" />
             </a>
             <a
               href="https://www.instagram.com/fulo.learning/"
+              target="_blank"
+              rel="noopener"
               className="block border-2 p-3 rounded-full hover:border-orange hover:scale-110 transition-all duration-300"
             >
               <FaInstagram className="w-5 h-5" />
             </a>
             <a
               href="https://twitter.com/FULODEV_"
+              target="_blank"
+              rel="noopener"
               className="block border-2 p-3 rounded-full hover:border-orange hover:scale-110 transition-all duration-300"
             >
               <FaTwitter className="w-5 h-5" />
             </a>
             <a
               href="https://www.facebook.com/emmanuel.fulodev"
+              target="_blank"
+              rel="noopener"
               className="block border-2 p-3 rounded-full hover:border-orange hover:scale-110 transition-all duration-300"
             >
               <FaFacebook className="w-5 h-5" />
