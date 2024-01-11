@@ -15,7 +15,7 @@ const PortfolioSlider = () => {
     {
       title: "Connect with pet owners worldwide",
       subtitle: "See More",
-      url: "/",
+      url: "/public/images/petm8.png",
       image: "public/images/petm8.png",
     },
     {
@@ -33,7 +33,7 @@ const PortfolioSlider = () => {
     {
       title: "Connect with pet owners worldwide",
       subtitle: "See More",
-      url: "/",
+      url: "/public/images/petm8.png",
       image: "public/images/petm8.png",
     },
     {
@@ -51,7 +51,7 @@ const PortfolioSlider = () => {
     {
       title: "Connect with pet owners worldwide",
       subtitle: "See More",
-      url: "/",
+      url: "/public/images/petm8.png",
       image: "public/images/petm8.png",
     },
     {
