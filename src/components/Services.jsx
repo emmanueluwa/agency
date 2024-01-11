@@ -1,5 +1,6 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
+import { Link } from "react-scroll";
 
 //images
 import service1 from "../assets/service_1.jpeg";
@@ -19,13 +20,17 @@ export const Services = () => {
           <h2 className="text-5xl font-bold mb-5 leading-snug">
             Services we can help you with
           </h2>
-          <a
-            href=""
+          <Link
+            to="contact"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-100}
             className="inline-flex items-center gap-2 font-semibold hover:text-orange transition-all duration-300 ease-in"
           >
-            <span>See all services</span>
+            <span>Find out more</span>
             <BsArrowRight />
-          </a>
+          </Link>
         </div>
 
         {/* services cards */}

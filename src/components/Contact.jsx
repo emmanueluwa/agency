@@ -24,7 +24,7 @@ export const Contact = () => {
               Ready to make your business more
               <span className="italic"> efficient</span> ?
             </h2>
-            <div className="text-white inline-flex items-center  gap-2 font-semibold hover:text-orange transition-all duration-300 ease-in">
+            <div className="text-white inline-flex items-center mt-6  gap-2 font-semibold hover:text-orange transition-all duration-300 ease-in">
               <PopupButton
                 url="https://calendly.com/fulodev/informal-chat"
                 /*
