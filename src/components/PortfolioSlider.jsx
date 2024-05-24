@@ -14,7 +14,7 @@ const PortfolioSlider = () => {
     {
       title: "Pet friendly property renting platform",
       subtitle: "See More",
-      url: "https://www.peteine.com/",
+      url: "https://peteine.com/",
       image: img1,
     },
     {
@@ -32,7 +32,7 @@ const PortfolioSlider = () => {
     {
       title: "Pet friendly property renting platform",
       subtitle: "See More",
-      url: "https://www.peteine.com/",
+      url: "https://peteine.com/",
       image: img1,
     },
     {
@@ -50,7 +50,7 @@ const PortfolioSlider = () => {
     {
       title: "Pet friendly property renting platform",
       subtitle: "See More",
-      url: "https://www.peteine.com/",
+      url: "https://peteine.com/",
       image: img1,
     },
     {
@@ -106,7 +106,8 @@ const PortfolioSlider = () => {
           key={index}
           href={item.url}
           target="_blank"
-          rel="noopener"
+          // rel="noopener"
+          rel="noreferrer"
           aria-label={item.title}
           className={`cs-portfolio cs-bg relative`}
         >
