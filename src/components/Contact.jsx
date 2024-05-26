@@ -21,8 +21,9 @@ export const Contact = () => {
         <div className="h-full flex items-center justify-center">
           <div className="lg:w-1/2 mx-auto text-center px-4">
             <h2 className="lg:text-5xl text-3xl text-white font-bold lg:leading-snug leading-normal mb-6">
-              Ready to make your business more
-              <span className="italic"> efficient</span> ?
+              Ready to build a
+              <span className="italic"> deeper connection </span>
+              with your customers?
             </h2>
             <div className="text-white inline-flex items-center mt-6  gap-2 font-semibold hover:text-orange transition-all duration-300 ease-in">
               <PopupButton

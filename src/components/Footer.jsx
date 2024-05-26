@@ -62,16 +62,10 @@ const Footer = () => {
           <h3 className="text-xl font-semibold">Services</h3>
           <div className="space-y-3 text-gray-300">
             <a href="/" className="block">
-              Website Applications
+              Mobile Applications
             </a>
             <a href="/" className="block">
-              Marketing Automation
-            </a>
-            <a href="/" className="block">
-              Saas
-            </a>
-            <a href="/" className="block">
-              Business Automation
+              Social Media Marketing
             </a>
           </div>
         </div>

@@ -13,7 +13,7 @@ export const Hero = () => {
       {/* banner content */}
       <div className="px-4 lg:px-24">
         <h1 className="md:w-2/3 lg:text-8xl sm:text-6xl text-5xl mb-5 text-white font-bold lg:leading-snug sm:leading-snug leading-snug">
-          Mission: Make Things Better
+          A mobile app agency
         </h1>
 
         {/* banner button and text */}
@@ -31,10 +31,11 @@ export const Hero = () => {
               <BsArrowRight />
             </Link>
           </div>
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 space-y-10">
             <p className="">
-              We use software to provide solutions to problems.
+              For businesses that want a deeper connection with customers.
             </p>
+            <p className="">deeper connection = more trust = more sales</p>
           </div>
         </div>
       </div>
