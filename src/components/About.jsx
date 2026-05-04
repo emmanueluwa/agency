@@ -1,59 +1,94 @@
 import React from "react";
-import banner from "../assets/funfact_bg.svg";
 
 export const About = () => {
   return (
-    <div className="text-white md:-[100px] -mt-10 bg-gradient-to-tr from-[#161616] to-[#080808] lg:mx-24 md:py-20 mx-4 py-12 md:px-16 px-6 rounded-xl z-50 flex flex-col md:flex-row justify-between md:items-center gap-12 relative">
-      <div className="bg-[url(/src/assets/funfact_bg.svg)] bg-no-repeat bg-center h-full w-full absolute top-0 left-0 opacity-75"></div>
+    <div className="text-white md:-mt-[100px] -mt-10 bg-gradient-to-tr from-[#161616] to-[#080808] lg:mx-24 md:py-20 mx-4 py-12 md:px-16 px-6 rounded-3xl z-50 relative overflow-hidden">
+      {/* Background decoration */}
+      <div className="absolute inset-0 bg-[url(/src/assets/funfact_bg.svg)] bg-no-repeat bg-center opacity-10"></div>
 
-      {/* left text  */}
-      <div className="md:w-2/5" id="about">
-        <h2 className="text-5xl font-bold mb-5">A little about us</h2>
-        <p className="text-gray-300">
-          We aim to help in areas meaningful and impactful to us. Our current
-          interests are animals, health and wellness, sustainability, psychology
-          and AI.
-        </p>
-      </div>
+      <div className="relative flex flex-col md:flex-row gap-12 items-center">
+        {/* Left - Story */}
+        <div className="md:w-5/12" id="about">
+          <h2 className="text-5xl font-bold mb-6 leading-tight">
+            We build AI systems that actually move the needle
+          </h2>
 
-      {/* right text  */}
-      <div className="md:w-3/5">
-        <div className="grid sm:grid-cols-2 grid-cols-1 gap-8">
-          <div className="flex h-auto items-center gap-3">
-            <h4 className="md:text-5xl text-3xl font-semibold">6</h4>
-            <div>
-              <span className="text-orange font-bold text-lg">+</span>
-              <p className="mb-2 text-sm leading-tight text-gray-300">
-                Industries of Interest
+          <div className="space-y-6 text-gray-300 text-[17px] leading-relaxed">
+            <p>
+              Founded by a hands-on engineer, we started by building real
+              products — not just client websites. Our flagship product is a
+              production-ready RAG (Retrieval-Augmented Generation) system for
+              structural engineers.
+            </p>
+            <p>
+              Today we operate as an{" "}
+              <span className="text-white font-medium">AI Software Agency</span>{" "}
+              that does three things:
+            </p>
+            <ul className="list-none space-y-3">
+              <li className="flex gap-3">
+                <span className="text-red-400 mt-1">→</span>
+                Builds custom AI tools and internal systems
+              </li>
+              <li className="flex gap-3">
+                <span className="text-red-400 mt-1">→</span>
+                Launches niche SaaS products
+              </li>
+              <li className="flex gap-3">
+                <span className="text-red-400 mt-1">→</span>
+                Acts as your long-term embedded AI &amp; engineering team
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Right - Stats + Credibility */}
+        <div className="md:w-7/12">
+          <div className="grid sm:grid-cols-2 gap-8">
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8">
+              <div className="text-red-400 text-6xl font-bold mb-1">1</div>
+              <div className="text-2xl font-semibold mb-3">
+                Production AI Product
+              </div>
+              <p className="text-gray-400">
+                Live RAG system used by structural engineering firms
+              </p>
+            </div>
+
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8">
+              <div className="text-red-400 text-6xl font-bold mb-1">100%</div>
+              <div className="text-2xl font-semibold mb-3">
+                Hands-on Delivery
+              </div>
+              <p className="text-gray-400">
+                Every project is led by experienced engineers, not account
+                managers
+              </p>
+            </div>
+
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8">
+              <div className="text-red-400 text-6xl font-bold mb-1">∞</div>
+              <div className="text-2xl font-semibold mb-3">
+                Long-term Partnerships
+              </div>
+              <p className="text-gray-400">
+                We become your on-demand AI &amp; development department
+              </p>
+            </div>
+
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8">
+              <div className="text-red-400 text-6xl font-bold mb-1">2026</div>
+              <div className="text-2xl font-semibold mb-3">Built for Scale</div>
+              <p className="text-gray-400">
+                From solo founder to full agency — we grow with our clients
               </p>
             </div>
           </div>
-          <div className="flex h-auto items-center gap-3">
-            <h4 className="md:text-5xl text-3xl font-semibold">5</h4>
-            <div>
-              <span className="text-orange font-bold text-lg">+</span>
-              <p className="mb-2 text-sm leading-tight text-gray-300">
-                Projects Completed
-              </p>
-            </div>
-          </div>
-          <div className="flex h-auto items-center gap-3">
-            <h4 className="md:text-5xl text-3xl font-semibold">1</h4>
-            <div>
-              {/* <span className="text-orange font-bold text-lg">+</span> */}
-              <p className="mb-2 text-sm leading-tight text-gray-300">
-                Engineer
-              </p>
-            </div>
-          </div>
-          <div className="flex h-auto items-center gap-3">
-            <h4 className="md:text-5xl text-3xl font-semibold">2</h4>
-            <div>
-              <span className="text-orange font-bold text-lg">+</span>
-              <p className="mb-2 text-sm leading-tight text-gray-300">
-                Industry Products
-              </p>
-            </div>
+
+          <div className="mt-10 text-gray-400 text-sm leading-relaxed">
+            Our mission is simple: Deliver AI and software solutions that save
+            time, reduce costs, and create real competitive advantage — not just
+            pretty interfaces.
           </div>
         </div>
       </div>
