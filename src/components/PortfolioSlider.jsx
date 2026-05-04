@@ -6,7 +6,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 // Import images (replace with actual screenshots)
 import ragImage from "../assets/swift.png"; // Your RAG app
-import bookingImage from "../assets/booking-platform.jpg"; // Add screenshot of the pet grooming app
+import bookingImage from "../assets/grooming-screen.png"; // Add screenshot of the pet grooming app
 
 const PortfolioSlider = () => {
   const projects = [
@@ -17,7 +17,7 @@ const PortfolioSlider = () => {
         "Production-ready document intelligence platform. Engineers upload PDFs, standards, and reports and receive accurate, source-referenced answers instantly.",
       tags: ["RAG", "AI", "SaaS", "Live"],
       image: ragImage,
-      url: "#",
+      url: "https://swiftciv.com/",
       status: "LIVE",
     },
     {
@@ -25,31 +25,31 @@ const PortfolioSlider = () => {
       subtitle: "Full-Stack Production System",
       description:
         "Complete booking and client management system with FastAPI backend, PostgreSQL, automated Telegram confirmations, and scalable AWS infrastructure.",
-      tags: ["FastAPI", "PostgreSQL", "AWS", "Automation"],
+      tags: ["FastAPI", "PostgreSQL", "AWS"],
       image: bookingImage,
-      url: "#",
+      url: "https://www.thegroomingloft.co.uk/",
       status: "LIVE",
     },
-    {
-      title: "AI Document Automation System",
-      subtitle: "Client / Internal Project",
-      description:
-        "Custom RAG + workflow automation tools that dramatically reduce time spent searching through technical documents and manuals.",
-      tags: ["RAG", "Automation", "AI"],
-      image: ragImage,
-      url: "#",
-      status: "DELIVERED",
-    },
-    {
-      title: "Embedded AI & Development Partnership",
-      subtitle: "Ongoing Managed Service",
-      description:
-        "Acting as the on-demand engineering and AI team for businesses — building, maintaining, and scaling their technical capabilities month after month.",
-      tags: ["Managed Service", "AI", "Long-term"],
-      image: ragImage,
-      url: "#",
-      status: "PARTNERSHIP",
-    },
+    // {
+    //   title: "AI Document Automation System",
+    //   subtitle: "Client / Internal Project",
+    //   description:
+    //     "Custom RAG + workflow automation tools that dramatically reduce time spent searching through technical documents and manuals.",
+    //   tags: ["RAG", "Automation", "AI"],
+    //   image: ragImage,
+    //   url: "#",
+    //   status: "DELIVERED",
+    // },
+    // {
+    //   title: "Embedded AI & Development Partnership",
+    //   subtitle: "Ongoing Managed Service",
+    //   description:
+    //     "Acting as the on-demand engineering and AI team for businesses — building, maintaining, and scaling their technical capabilities month after month.",
+    //   tags: ["Managed Service", "AI", "Long-term"],
+    //   image: ragImage,
+    //   url: "#",
+    //   status: "PARTNERSHIP",
+    // },
   ];
 
   const settings = {
