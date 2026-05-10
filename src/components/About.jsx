@@ -10,33 +10,31 @@ export const About = () => {
         {/* Left - Story */}
         <div className="md:w-5/12" id="about">
           <h2 className="text-5xl font-bold mb-6 leading-tight">
-            We build AI systems that actually move the needle
+            AI engineering that ships to production — not just to slides
           </h2>
 
           <div className="space-y-6 text-gray-300 text-[17px] leading-relaxed">
             <p>
-              Founded by a hands-on engineer, we started by building real
-              products — not just client websites. Our flagship product is a
-              production-ready RAG (Retrieval-Augmented Generation) system for
-              structural engineers.
+              Fulodev is built by a hands-on engineer with a background in civil
+              engineering and production AI systems. The flagship product is
+              SwiftCiv — a live RAG system that lets civil engineers query
+              regulatory documents and get verbatim quotes with exact page
+              citations.
             </p>
-            <p>
-              Today we operate as an{" "}
-              <span className="text-white font-medium">AI Software Agency</span>{" "}
-              that does three things:
-            </p>
+            <p>Three things on offer:</p>
             <ul className="list-none space-y-3">
               <li className="flex gap-3">
                 <span className="text-red-400 mt-1">→</span>
-                Builds custom AI tools and internal systems
+                Custom AI tools and internal systems built for your workflow
               </li>
               <li className="flex gap-3">
                 <span className="text-red-400 mt-1">→</span>
-                Launches niche SaaS products
+                Niche SaaS products designed around domain-specific problems
               </li>
               <li className="flex gap-3">
                 <span className="text-red-400 mt-1">→</span>
-                Acts as your long-term embedded AI &amp; engineering team
+                Embedded AI engineering on a retainer — your on-demand technical
+                partner
               </li>
             </ul>
           </div>
@@ -47,11 +45,10 @@ export const About = () => {
           <div className="grid sm:grid-cols-2 gap-8">
             <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8">
               <div className="text-red-400 text-6xl font-bold mb-1">1</div>
-              <div className="text-2xl font-semibold mb-3">
-                Production AI Product
-              </div>
+              <div className="text-2xl font-semibold mb-3">Live AI Product</div>
               <p className="text-gray-400">
-                Live RAG system used by structural engineering firms
+                SwiftCiv — a production RAG system for civil engineers, live at
+                swiftciv.com
               </p>
             </div>
 
@@ -61,8 +58,8 @@ export const About = () => {
                 Hands-on Delivery
               </div>
               <p className="text-gray-400">
-                Every project is led by experienced engineers, not account
-                managers
+                Every project is built and led directly — no account managers,
+                no handoffs
               </p>
             </div>
 
@@ -72,23 +69,27 @@ export const About = () => {
                 Long-term Partnerships
               </div>
               <p className="text-gray-400">
-                We become your on-demand AI &amp; development department
+                Available as your on-demand AI and engineering department on a
+                monthly retainer
               </p>
             </div>
 
             <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8">
-              <div className="text-red-400 text-6xl font-bold mb-1">2026</div>
-              <div className="text-2xl font-semibold mb-3">Built for Scale</div>
+              <div className="text-red-400 text-6xl font-bold mb-1">BSc</div>
+              <div className="text-2xl font-semibold mb-3">
+                Civil Engineering
+              </div>
               <p className="text-gray-400">
-                From solo founder to full agency — we grow with our clients
+                Domain expertise in the industries we build for — not just the
+                technology
               </p>
             </div>
           </div>
 
           <div className="mt-10 text-gray-400 text-sm leading-relaxed">
-            Our mission is simple: Deliver AI and software solutions that save
-            time, reduce costs, and create real competitive advantage — not just
-            pretty interfaces.
+            The goal is simple: deliver AI and software that saves time, reduces
+            costs, and creates real competitive advantage — not just impressive
+            demos.
           </div>
         </div>
       </div>
