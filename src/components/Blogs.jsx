@@ -25,7 +25,7 @@ export const Blogs = () => {
 
       {/* main blog section  */}
       <div className="relative" id="blogs">
-        <div classname="flex flex-col lg:flex-row justify-between lg:items-center gap-12">
+        <div className="flex flex-col lg:flex-row justify-between lg:items-center gap-12">
           {/* content */}
           <div className="lg:w-1/3 space-y-5">
             <h4 className="text-gray-200 font-semibold text-2xl">Our Blog</h4>
