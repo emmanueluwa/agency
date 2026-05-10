@@ -101,7 +101,24 @@ export default function BlogPost() {
         </h1>
         <p className="text-gray-500 text-sm mb-10">{post.meta.date}</p>
 
-        <div className="prose prose-invert prose-lg max-w-none">
+        <div
+          className="prose prose-invert max-w-none
+  prose-headings:text-white
+  prose-p:text-gray-300
+  prose-strong:text-white
+  prose-code:text-red-400
+  prose-code:bg-white/10
+  prose-code:rounded
+  prose-code:px-1
+  prose-pre:bg-white/5
+  prose-pre:border
+  prose-pre:border-white/10
+  prose-blockquote:border-red-400
+  prose-blockquote:text-gray-400
+  prose-a:text-red-400
+  prose-li:text-gray-300
+"
+        >
           <ReactMarkdown>{post.content}</ReactMarkdown>
         </div>
       </div>
