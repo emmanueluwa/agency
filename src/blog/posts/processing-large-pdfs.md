@@ -23,8 +23,10 @@ When the system runs out of RAM it picks the most memory-hungry process and kill
 
 Checking the kernel logs also confirmed it:
 
+```
 celery invoked oom-killer
 Out of memory: Killed process 1175738 (celery) total-vm:8861876kB, anon-rss:5197760kB
+```
 
 ## Why was this happening?
 
