@@ -33,11 +33,11 @@ export const Services = () => {
               <p className="mt-4 text-sm leading-6 text-gray-300">
                 One-time builds and AI implementations
               </p>
-              <p className="mt-6 flex items-baseline gap-x-1">
+              {/* <p className="mt-6 flex items-baseline gap-x-1">
                 <span className="text-4xl font-bold tracking-tight text-white">
                   From £4,500
                 </span>
-              </p>
+              </p> */}
               <Link
                 to="contact"
                 activeClass="active"
@@ -80,11 +80,11 @@ export const Services = () => {
               <p className="mt-4 text-sm leading-6 text-gray-300">
                 Ready-to-use AI tools you can start using today
               </p>
-              <p className="mt-6 flex items-baseline gap-x-1">
+              {/* <p className="mt-6 flex items-baseline gap-x-1">
                 <span className="text-4xl font-bold tracking-tight text-white">
                   From £97/mo
                 </span>
-              </p>
+              </p> */}
               <Link
                 to="contact"
                 activeClass="active"
@@ -122,11 +122,11 @@ export const Services = () => {
               <p className="mt-4 text-sm leading-6 text-gray-300">
                 We become your long-term technical partner
               </p>
-              <p className="mt-6 flex items-baseline gap-x-1">
+              {/* <p className="mt-6 flex items-baseline gap-x-1">
                 <span className="text-4xl font-bold tracking-tight text-white">
                   From £1,500/mo
                 </span>
-              </p>
+              </p> */}
               <Link
                 to="contact"
                 activeClass="active"
