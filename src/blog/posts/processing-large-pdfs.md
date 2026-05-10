@@ -7,7 +7,7 @@ tags: ["Python", "Celery", "RAG", "Production", "Engineering"]
 
 ## The Problem
 
-Users of [swiftciv](https://swiftciv.com){target="\_blank"} reported that when they tried to upload large files, the upload would take forever and never complete. Deleting the file would also start but never show as completed.
+Users of [swiftciv](https://swiftciv.com) reported that when they tried to upload large files, the upload would take forever and never complete. Deleting the file would also start but never show as completed.
 
 The file size we are talking about here is 30-40MB engineering manuals.
 

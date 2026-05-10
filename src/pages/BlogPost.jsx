@@ -29,6 +29,19 @@ function parseFrontmatter(raw) {
   return { meta, content: raw.replace(/^---[\s\S]*?---\n/, "") };
 }
 
+const components = {
+  a: ({ href, children }) => (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-red-400 hover:underline"
+    >
+      {children}
+    </a>
+  ),
+};
+
 export default function BlogPost() {
   const { slug } = useParams();
   const [post, setPost] = useState(null);
@@ -101,25 +114,8 @@ export default function BlogPost() {
         </h1>
         <p className="text-gray-500 text-sm mb-10">{post.meta.date}</p>
 
-        <div
-          className="prose prose-invert max-w-none
-  prose-headings:text-white
-  prose-p:text-gray-300
-  prose-strong:text-white
-  prose-code:text-red-400
-  prose-code:bg-white/10
-  prose-code:rounded
-  prose-code:px-1
-  prose-pre:bg-white/5
-  prose-pre:border
-  prose-pre:border-white/10
-  prose-blockquote:border-red-400
-  prose-blockquote:text-gray-400
-  prose-a:text-red-400
-  prose-li:text-gray-300
-"
-        >
-          <ReactMarkdown>{post.content}</ReactMarkdown>
+        <div className="prose prose-invert max-w-none prose-headings:text-white prose-p:text-gray-300 prose-strong:text-white prose-code:text-red-400 prose-code:bg-white/10 prose-code:rounded prose-code:px-1 prose-pre:bg-white/5 prose-pre:border prose-pre:border-white/10 prose-blockquote:border-red-400 prose-blockquote:text-gray-400 prose-a:text-red-400 prose-li:text-gray-300">
+          <ReactMarkdown components={components}>{post.content}</ReactMarkdown>
         </div>
       </div>
       <Footer />
