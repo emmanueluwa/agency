@@ -1,6 +1,4 @@
-import React from "react";
 import { Link } from "react-scroll";
-import { RouterLink } from "react-router-dom";
 
 export const Services = () => {
   return (

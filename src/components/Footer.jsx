@@ -16,8 +16,8 @@ const Footer = () => {
             <span className="text-red-400">f</span>ulodev
           </a>
           <p className="text-gray-400 max-w-xs">
-            AI Software Agency building custom tools, SaaS products, and serving
-            as your embedded engineering team.
+            Custom AI tools, specialised SaaS products, and embedded engineering
+            — built to solve real problems and shipped to production.
           </p>
 
           {/* Social Links */}
@@ -45,6 +45,9 @@ const Footer = () => {
             </a>
             <a href="#portfolio" className="block hover:text-white transition">
               Projects
+            </a>
+            <a href="/blog" className="block hover:text-white transition">
+              Blog
             </a>
             <a href="#partners" className="block hover:text-white transition">
               Clients

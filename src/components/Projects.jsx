@@ -14,8 +14,8 @@ export const Projects = () => {
           Real products. Real impact.
         </h2>
         <p className="max-w-2xl mx-auto mt-6 text-gray-300 text-lg">
-          From AI-powered SaaS tools to full-stack production systems — here’s
-          what we’ve built and shipped.
+          From AI-powered SaaS tools to full-stack production systems — built
+          and shipped to production.
         </p>
       </div>
 
