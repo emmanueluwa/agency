@@ -14,20 +14,19 @@ export const Hero = () => {
       <div className="px-4 lg:px-24 pt-20">
         <div className="max-w-5xl">
           <h1 className="md:w-4/5 lg:text-7xl sm:text-6xl text-5xl mb-6 text-white font-bold lg:leading-tight sm:leading-tight leading-tight">
-            AI Software Agency for
+            Production-grade AI engineering
             <br />
-            ambitious businesses
+            for ambitious businesses
           </h1>
-
           <p className="max-w-2xl text-xl text-gray-300 mb-8">
-            We build custom AI tools, launch specialized SaaS products, and act
-            as your embedded engineering team.
+            Custom AI tools, specialised SaaS products, and embedded engineering
+            — built to solve real problems and shipped to production.
           </p>
 
           {/* Trust signals */}
-          <div className="flex items-center gap-8 text-sm text-gray-400 mb-10">
-            <div>✓ Shipped AI RAG system for structural engineers</div>
-            <div>✓ Custom development + SaaS products</div>
+          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-8 text-sm text-gray-400 mb-10">
+            <div>✓ Live RAG system for civil engineers</div>
+            <div>✓ Custom AI development + SaaS products</div>
             <div>✓ Long-term technical partnerships</div>
           </div>
 
@@ -41,21 +40,19 @@ export const Hero = () => {
               offset={-100}
               className="cursor-pointer group inline-flex items-center justify-center gap-3 bg-red-500 hover:bg-red-600 transition-all text-white font-semibold text-lg px-8 py-4 rounded-2xl"
             >
-              Book a Free Strategy Call
+              Start a Project
               <BsArrowRight className="group-hover:translate-x-1 transition" />
             </Link>
-
             <Link
-              to="services"
+              to="portfolio"
               smooth={true}
               className="cursor-pointer inline-flex items-center justify-center gap-3 border border-white/30 hover:border-white/60 transition-all text-white font-medium text-lg px-8 py-4 rounded-2xl"
             >
-              See Our Services
+              See Our Work
             </Link>
           </div>
-
           <p className="text-gray-500 text-sm mt-4">
-            No sales pitch. Just honest advice + clear pricing.
+            No sales pitch. Just honest advice.
           </p>
         </div>
       </div>
