@@ -146,7 +146,7 @@ Message: ${formData.message}
               </h3>
 
               <a
-                href="mailto:your@email.com"
+                href="mailto:emmanuel@fulodev.com"
                 className="group inline-flex items-center gap-4 text-xl text-gray-300 hover:text-white transition-colors"
               >
                 <BsEnvelope className="text-3xl" />
