@@ -80,8 +80,7 @@ export const About = () => {
                 Civil Engineering
               </div>
               <p className="text-gray-400">
-                Domain expertise in the industries we build for — not just the
-                technology
+                Domain experience in the industry — not just the technology
               </p>
             </div>
           </div>

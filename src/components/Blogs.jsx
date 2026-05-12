@@ -7,8 +7,8 @@ export const Blogs = () => {
       {/* blog top */}
       <div>
         <h2 className="text-4xl font-bold text-center leading-snug lg:w-4/6 mx-auto pb-20">
-          We are agile. We adapt to change. We see change as an opportunity to
-          improve, we respond through planning and execution.
+          Agile. Adapt to change. Change is an opportunity to improve, with
+          response through planning and execution.
         </h2>
 
         {/* video player */}
